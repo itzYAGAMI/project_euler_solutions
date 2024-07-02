@@ -7,19 +7,17 @@ public class euler7 {
     static boolean prime(long n)
     {
         long a = Math.round((n/2.0)+1);
-        boolean prime = true;
+        
         for(long i = 2; i <= a; i++)
         {
             if(n == 2)
             break;
             
             if(n%i==0)
-            {
-                prime = false;
-                break;
-            }
+            return false;
+            
         }
-        return prime;
+        return true;
     }
     public static void main(String[] args) {
         long c = 1;

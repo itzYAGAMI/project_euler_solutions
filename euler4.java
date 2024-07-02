@@ -32,7 +32,7 @@ public class euler4 {
             {
                 if(greatest <(a[c]*b[d]) && isPalindrome(a[c]*b[d]))
                 greatest = a[c] * b[d];
-                System.out.println(greatest);
+                // System.out.println(greatest);
 
             }
             e++;
