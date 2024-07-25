@@ -1,4 +1,4 @@
-public class eueler30 {
+public class euler30 {
     public static int digitFifth(int n)
     {
         int sum = 0;
